@@ -1,1 +1,1 @@
-# responzivni-web
+# RESPONZIVNÍ WEB
