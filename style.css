@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+nav {
+  background-color: #bb843c;
+  margin: 5px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav li {
+  display: block;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  display: none;
+  margin-left: auto;
+  padding: 8px;
+}
+
+.icon img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .icon {
+    display: block;
+  }
+  nav li {
+    display: none;
+  }
+}
+
+.back {
+  height: 70vh;
+  background-image: url("https://media.istockphoto.com/id/1489405557/cs/fotografie/trdelník-typický-český-dezert-se-smetanou-a-jahodou-staroměstské-náměstí-v-praze.jpg?s=1024x1024&w=is&k=20&c=aTUOIoY245Ak7lvHamNstY7g7I1uDuG3uqqY0zVf3uM=");
+  background-size: cover;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  bottom: 16px;
+  left: 32px;
+  color: aliceblue;
+}
+
+.subtitle {
+  font-size: 20px;
+}
+
+@media (max-widht: 768px) {
+  .subtitle {
+    font-size: 18px;
+  }
+}
+
+.title {
+  margin-top: 8px;
+}
+
+.img-container {
+  width: 50%;
+}
+@media (max-width: 768px) {
+  .img-container {
+    width: 100%;
+  }
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
